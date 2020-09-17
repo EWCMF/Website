@@ -20,7 +20,9 @@ http.createServer(function (req, res) {
       contentType = 'text/css'  
       break;
     case ".png":
-      contentType = 'image/png'  
+      contentType = 'image/png'
+    case ".jpg":
+      contentType = 'image/jpeg'  
   }
 
   fs.readFile(filePath, function(err, data) {
