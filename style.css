@@ -1,3 +1,20 @@
 body {
-    background-color: lightgray;
+    background-color: DodgerBlue;
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+
+h1, h2 {
+    background-color: Blue;
+    width: 80%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    border-style: groove;
+    border-color: SteelBlue;
+    color: gray;
+}
+
+p, img, a {
+    padding-left: 16px;
 }
